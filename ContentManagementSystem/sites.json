@@ -1,0 +1,35 @@
+{
+  "_id": {
+    "domain": "",
+    "collectionPrefix": ""
+  },
+  "title": "CMS",
+  "description": "Content managment system",
+  "front_page": {
+    "show_on_front": "posts",
+    "page_on_front": null,
+    "page_for_posts": null
+  },
+  "footer": [
+    {
+      "_id": { "$oid": "5099803df3f4948bd2f98391" },
+      "type": "markdown",
+      "body": {
+        "variant": "caption",
+        "align": "center",
+        "content": "CMS"
+      },
+      "order": 1
+    },
+    {
+      "_id": { "$oid": "5099803df3f4948bd2f98392" },
+      "type": "html",
+      "body": {
+        "variant": "body1",
+        "align": "center",
+        "content": "CMS"
+      },
+      "order": 2
+    }
+  ]
+}
